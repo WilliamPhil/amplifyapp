@@ -9,7 +9,7 @@ function App({ signOut, user }) {
     <div className="App">
       <header>
         <img src={logo} className="App-logo" alt="logo" />
-         <h1>Hello There, {user.username}</h1>
+         <h1>Hello {user.username}</h1>
         <button onClick={signOut}>Sign out</button>
       </header>
     </div>
